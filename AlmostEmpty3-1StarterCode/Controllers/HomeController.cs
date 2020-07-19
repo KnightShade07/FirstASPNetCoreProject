@@ -22,6 +22,7 @@ namespace AlmostEmpty3_1StarterCode.Controllers
 
         public IActionResult AboutMe()
         {
+            ViewData["Title"] = "AboutMe";
             return View();
         }
     }
